@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install MUSL for "x86_64-unknown-linux-musl" target
-        run: sudo apt install -y musl-tools
+        run: sudo apt install -y musl-tools libstdc++-12-dev
       - name: Checkout code
         uses: actions/checkout@v5
       - uses: dtolnay/rust-toolchain@master
