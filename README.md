@@ -98,3 +98,16 @@ Includes unit tests for stretching logic, file I/O, format validation, and edge 
 ## License
 
 MIT License - see [LICENSE](LICENSE) file.
+
+## Cite
+
+```
+@software{Smoliakov_Wav_Files_Toolkit,
+  author = {Smoliakov, Yehor},
+  month = oct,
+  title = {{WAV Files Toolkit: A suite of command-line tools for common WAV audio processing tasks, including conversion from other formats, data augmentation, loudness normalization, spectrogram generation, and validation.}},
+  url = {https://github.com/RustedBytes/wav-files-toolkit},
+  version = {0.4.0},
+  year = {2025}
+}
+```
